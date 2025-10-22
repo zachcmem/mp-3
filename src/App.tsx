@@ -6,7 +6,6 @@ import Header from "./sections/Header";
 import { Align } from "./align/Align"; 
 import { AlignNav } from "./align/AlignNav"; 
 import { AlignMain } from "./align/AlignMain";
-import styled from 'styled-components';
 import Navigation from './sections/Navigation';
 import Main from './sections/Main';
 import Home from './sites/Home';

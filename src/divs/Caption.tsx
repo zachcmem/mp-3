@@ -10,24 +10,7 @@ const CaptionWrapper = styled.div`
     }   
 `;
 
-const CaptionImage = styled.img`
 
-    display: table-cell;
-    vertical-align: top;
-    width: 25vw;   
-    height: auto; 
-    max-width: 240px;  
-    min-width: 150px;  
-    margin-left: 40px;
-    margin-right: 40px;
-
-    @media screen and (max-width: 750px){
-        display: block;
-        margin: 0 auto 15px auto;
-        width: 50vw;  
-        height: auto;
-    }   
-`;
 
 const CaptionP = styled.p`
 
@@ -54,7 +37,6 @@ export default function Caption(){
 
     return(
         <CaptionWrapper>
-            <CaptionImage src={headshot} alt=""/>
             <CaptionP>My name is Zachary and this is my resume. I am an Undergraduate Student at <CaptionStrong>Boston University</CaptionStrong> pursuing a Bachelor of Arts in Computer Science and Economics. 
                     Throughout my academic career, I have developed a strong foundation in <CaptionStrong>Data Modeling</CaptionStrong>, <CaptionStrong>Software Engineering</CaptionStrong>, 
                     <CaptionStrong>Economic Analysis</CaptionStrong>. I have enjoyed applying these skills through my internships and personal projects. I am also involved in multiple 

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import headshot from "../images/headshot.jpg";
+
 
 const CaptionWrapper = styled.div`
 

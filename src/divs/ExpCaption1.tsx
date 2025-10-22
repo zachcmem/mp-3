@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import vandyk2 from "../images/vandyk2.jpg";
+import vandyk2 from "../images/vandyk2.JPG";
 
 
 const CaptionWrapper = styled.div`

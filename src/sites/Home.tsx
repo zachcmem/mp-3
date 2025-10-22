@@ -37,6 +37,12 @@ export default function Home(){
             <MainBreak/>
             <MainP>Welcome to my website! Here you will find my prior education and experience, as well as my personal projects. My skills and achievements are also listed! Thank you for your time!</MainP>
             <ImgCen/>
+            <MainBreak/>
+            <MainBreak/>
+            <MainBreak/>
+            <MainBreak/>
+            <MainBreak/>
+            <MainBreak/>
         </>
 
     )
